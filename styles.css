@@ -1,0 +1,53 @@
+
+#titulo{
+    text-align: center;
+    color: rgb(241, 234, 238);
+    font-weight: bold;
+    font-size: 50px;
+    border-style: double;
+    -webkit-text-stroke: 2px hotpink;
+    border-color: hotpink;
+    
+    
+}
+
+
+
+body{
+    
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+img{
+    display: block;
+    width: 300px;
+    margin: auto
+    
+    
+}
+
+#botonComprobar{
+    
+    font-size: 15px;
+    font-family: sans-serif ;
+    background-color: hotpink;
+    font-weight: bold;
+    color: white;
+    border-color: black;  
+}
+#letraBoton{
+    text-align: center;
+}
+
+#botonInicio{
+    font-size: 20px;
+    font-family: sans-serif ;
+    background-color: hotpink;
+    font-weight: bold;
+    color: white;
+    border-color: black;
+}
+#buttonInicio{
+    text-align: center;
+}
