@@ -12,20 +12,32 @@
 
     <h1 id="titulo">El Abogado...</h1>
     
-    <form id="letraBoton">
-        <input type="text" size="1" id="letra">
-        <button id="botonComprobar" type="button" >Comprobar letra</button>
-    </form>   
-    
-    <img id="soporte" src="images/Hangman-0.png">
-    
+    <div id="ingresar">
+        <h3>Ingresa una letra</h3> 
+        <form id="letraBoton">
+            <input type="text" size="1" id="letra">
+            <button id="botonComprobar" type="button" >Comprobar letra</button>
+        </form>  
 
+    <div id="division contenedor-imagen">
+        <img src="images/Hangman-0.png" id="soporte">
+    </div>
+    
+    
+        <br>
+    </div>
+    <div class="contenedor-palabra"></div>
+    <div id="puntaje">
+        Puntaje: 0
+    </div>
+    
+    <br>
+    <br>
 
     
     <form id="buttonInicio">
         <button id="botonInicio">START</button>
     </form>
     <script src="app.js"></script>
-    <script src="words.json"></script>
 </body>
 </html>

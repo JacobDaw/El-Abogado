@@ -31,10 +31,10 @@ img{
     
     font-size: 15px;
     font-family: sans-serif ;
-    background-color: hotpink;
+    background-color: rgb(228, 102, 211);
     font-weight: bold;
-    color: white;
-    border-color: black;  
+    color: rgb(255, 255, 255);
+    border-color: rgb(243, 243, 243);  
 }
 #letraBoton{
     text-align: center;
@@ -50,4 +50,21 @@ img{
 }
 #buttonInicio{
     text-align: center;
+}
+
+#ingresar{
+    text-align: center;
+    color: rgb(233, 232, 232);
+    font-family: sans-serif;
+    -webkit-text-stroke: 1px rgb(230, 24, 127);
+    font-size: 20px;
+    
+}
+
+#puntaje{
+    text-align: center;
+    color: rgb(226, 225, 226);
+    font-family: sans-serif;
+    -webkit-text-stroke: 0.8px rgb(230, 24, 127);
+    font-size: 30px;
 }
